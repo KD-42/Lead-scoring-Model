@@ -29,3 +29,18 @@ To run the `Lead Case Study file.ipynb` notebook, ensure the following libraries
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn statsmodels
 
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, roc_curve, confusion_matrix
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.preprocessing import StandardScaler
+from statsmodels.stats.outliers_influence import variance_inflation_factor
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import LabelEncoder
+from sklearn.decomposition import PCA
+
+
